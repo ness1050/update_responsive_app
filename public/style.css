@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -14,15 +17,42 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 20%;
+  padding: 5%;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
 }
+
+.nav_items {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+  width: 200px;
+  color: #08e225ba;
+}
+
+.nav_items a {
+  font-family: ;
+  color: rgb(16, 4, 4);
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+#date {
+
+}
+
+
+
 #Fheader {
-  color: black;
+  color: rgba(33, 210, 13, 0.898);
+  position: relative;
   font-size: large;
   font-size: 4rem;
-  text-align: center;
-  text-shadow: 1px 1px;
+  text-shadow: 2px 2px 4px rgba(21, 24, 4, 0.896);
 }
+
 
 header img {
   width: 100%;
@@ -122,13 +152,14 @@ ul, ol {
 } 
 
 .centerFooter {
-  text-size-adjust: 20px;
+
   text-shadow: #f7f7f7;
   margin-top: 20px;
   text-align: center;
 }
 
 .icon {
+  margin-top: 30px;
   width: 30px;
   height: 30px;
   margin-left: 10px;
@@ -140,6 +171,16 @@ ul, ol {
   transform: scale(1.5);
   filter: brightness(1.2);
 }
+
+p {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 10%;
+  font-size: small;
+}
+
+p:hover {
+width: 280px;}
 
 
 
