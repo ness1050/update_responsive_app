@@ -39,11 +39,27 @@ header {
   transition: background 0.3s, color 0.3s;
 }
 
+
 #date {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: white;
+  background-color: #0f0303;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  margin: 0 auto; /* center it horizontally */
+  text-align: center;
+  margin-bottom: 1px;
+  margin-left: 10px;
 
 }
 
-
+a:focus, button:focus {
+  outline: 3px solid red;
+  outline-offset: 2px;
+}
 
 #Fheader {
   color: rgba(33, 210, 13, 0.898);
