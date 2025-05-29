@@ -1,0 +1,94 @@
+
+
+.type {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.type p {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  color: #0cc024;
+}
+
+.type h1, h3, h4, h5, h6 {
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1900ff;
+}
+
+.type blockquote {
+  background-color: #0ab2dcbd;
+  color: white;
+}
+
+.form {
+
+  max-width: 350px;
+  margin: 50px ;
+  padding: 30px;
+  background: rgb(251, 255, 252);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8  );
+}
+.container {
+  background-image: url('/public/img/caffe.jpg');
+}
+
+.form h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: medium;
+  text-align: center;
+  color: #28c833;
+  margin-bottom: 20px;
+  background-color: #060415;
+}
+
+.form-group, .amount, .type, .type1, .date {
+  margin-bottom: 15px;
+  background-color:white;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0a0909;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="month"],
+.form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #090909;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.form select {
+  background: url('../images/arrow.svg') no-repeat right;
+  background-size: 4px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background: #0bc53a;
+  border-radius: 20px;
+}
+

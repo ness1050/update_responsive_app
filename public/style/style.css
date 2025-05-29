@@ -31,7 +31,6 @@ header {
 }
 
 .nav_items a {
-  font-family: ;
   color: rgb(16, 4, 4);
   text-decoration: none;
   font-size: 30px;
@@ -135,7 +134,7 @@ ul, ol {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   justify-content: space-between;
   font-size: 1.2em;
   
@@ -221,7 +220,19 @@ width: 280px;}
 
   @media screen and (max-width: auto) {
     footer {
-    width: 80vw;
+      width: 80vw;
     }
-  } 
+  }
+
+  @media screen and (max-width: 1080px) {
+  .form {
+    width: 20vw;
+  }
+  }
+
+  @media screen and (max-width: 480px) {
+  .form {
+    width: 80vw;
+  }
+}
 }

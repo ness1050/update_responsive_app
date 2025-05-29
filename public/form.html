@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/form.css">
+    <link rel="icon" href="./img/caffe.jpg"
+</head>
+
+
+<body>
+  <header>
+  <h1 id="Fheader">
+  Welcome to pannkaka website
+  </h1>
+  <p id="date"></p>
+    <nav class="nav_items">
+      <a href="#">
+        Om
+      </a>
+      <a href="/public/form.html">
+        Form
+      </a>
+      <a href="#">
+        About
+      </a>
+      <a href="/public/index.html">
+        Main
+      </a>
+    </nav>
+  </header>
+  <main class="container">
+    <form class="form" action="Submit-details" method="post">
+      <h2>Credit Card Payment</h2>
+      <div class="form-grupp">
+        <label for="cardholder-name">Cardholder's Name</label>
+        <input type="text" id="cardholder-name" name="amount" required>
+      </div>
+      <div class="type">
+        <label for="card-type">Card type: </label>
+        <select name="card-type" id="card-type">
+          <option value="Visa"> Visa</option>
+          <option value="MasterCard">MasterCard</option>
+          <option value="Nordea">Nordea</option>
+          <option value="Amex">American Express</option>
+        </select>
+      </div>
+
+      <div class="type1">
+        <label for="card-number"> Card number</label>
+        <input type="text" id="card-number" name="card_number" required>
+      </div>
+      <div class="data">
+        <label for="validity"> Valid until: </label>
+        <input type="month" id="validity" name="validity" required>
+      </div>
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </main>
+   <footer class="footer">
+      <div class="leftFooter">
+        <ul>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+          MDN HTML
+          </a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN CSS</a>
+        </li>
+      </ul>
+      </div>
+      <div class="centerFooter">
+        <p>@Created by Naseem Qurbanali</p>
+      </div>
+      <div class="rightFooter"> 
+        <a href="https://facebook.com" target="_blank">
+          <img src="./img/socialmedia/vecteezy_social-media-icon_25685169.png" alt="Someid" class="icon">
+        </a>
+        <a href="instagram.com" target="blank">
+          <img src="./img/socialmedia/vecteezy_social-media-icon_25685166.png" alt="Socialmedia" class="icon">
+        </a>
+        <a href="tel:+46735784775" target="_self">
+          <img src="/public/img/socialmedia/vecteezy_icons-business-card-contact-information-symbols-isolated_32426141.png" alt="Phonenumber" class="icon">
+        </a>
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
