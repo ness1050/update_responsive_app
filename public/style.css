@@ -1,8 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff;
   color: #333;
+}
+
+header {
+  background-image: url('/public/img/pancake.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 20%;
+}
+#Fheader {
+  color: black;
+  font-size: large;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px;
 }
 
 header img {
@@ -62,10 +81,66 @@ ul, ol {
   border-radius: 4px;
 }
 
-footer {
-  padding: 2px;
-  display: block;
+.footer {
+  background-color: #000000;
+  color: #f7f7f7;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  font-size: 1.2em;
+  
 }
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.footer a:hover {
+  color: rgb(61, 215, 34);
+  text-decoration: underline;
+}
+
+.leftFooter, .centerFooter, .rightFooter {
+  flex: 1 1 200px;
+  margin: 10px;
+} 
+
+.centerFooter {
+  text-size-adjust: 20px;
+  text-shadow: #f7f7f7;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  filter: brightness(1) invert(2);
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  filter: brightness(1.2);
+}
+
 
 
 /* Responsiv layout */
@@ -73,7 +148,7 @@ footer {
   .column {
     flex: 1 1 100%;
   }
-
+ 
   header img {
     max-height: 300px;
   }
@@ -86,4 +161,10 @@ footer {
     font-size: 1rem;
     padding: 12px;
   }
+
+  @media screen and (max-width: auto) {
+    footer {
+    width: 80vw;
+    }
+  } 
 }
